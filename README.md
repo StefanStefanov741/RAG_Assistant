@@ -6,13 +6,13 @@ The goal was finding the best solution posible to creating a RAG bot system that
 📄More information about the project you can find in the "Project Report.pdf" file.
 
 📌Prerequisites to be able to run the RAG Charbot system:
-    Docker - It is used to host a parsing service locally that takes care of extracting the information from your files and return them in json format for storing.
+Docker - It is used to host a parsing service locally that takes care of extracting the information from your files and return them in json format for storing.
 
-    Tessaract-ocr - Needed only if you plan to run the parsing code locally without docker, since otherwise the docker container will install tessaract-ocr inside it upon setup.
+Tessaract-ocr - Needed only if you plan to run the parsing code locally without docker, since otherwise the docker container will install tessaract-ocr inside it upon setup.
 
-    Poppler-utils - Needed only if you plan to run the parsing code locally without docker, since otherwise the docker container will install poppler-utils inside it upon setup.
+Poppler-utils - Needed only if you plan to run the parsing code locally without docker, since otherwise the docker container will install poppler-utils inside it upon setup.
 
-    Python 3.10 environment in case you want to also run the parsing code locally without docker (to install packages inside ./ParsingService/parsing-requirements.txt), otherwise you can use newer versions of python (Tested up to Python 3.13) to install the packages in (client-requirements.txt) that are needed to create a database from the recieved json data from the docker service as well as run the gui that will allow you to chat with the bot connected to the local vector store.
+Python 3.10 environment in case you want to also run the parsing code locally without docker (to install packages inside ./ParsingService/parsing-requirements.txt), otherwise you can use newer versions of python (Tested up to Python 3.13) to install the packages in (client-requirements.txt) that are needed to create a database from the recieved json data from the docker service as well as run the gui that will allow you to chat with the bot connected to the local vector store.
 
 📦To install the packages needed on the client side (running the gui and creating the database) use:
 pip install -r "client-requirements.txt"
