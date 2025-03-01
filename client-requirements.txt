@@ -1,0 +1,12 @@
+#Install microsoft C++ build tools on your system (https://visualstudio.microsoft.com/visual-cpp-build-tools/) Make sure Desktop development with C++ is checked in the installer.
+
+PyPDF2
+Pillow
+langchain>=0.2.9
+langchain-community
+langchain-core
+langchain-openai
+tk
+chromadb
+python-dotenv
+unstructured
