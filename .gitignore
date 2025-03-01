@@ -1,4 +1,5 @@
 .venv
 .env
-chroma.sqlite3
+Input/
+Output/
 __pycache__
