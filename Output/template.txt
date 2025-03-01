@@ -1,0 +1,2 @@
+Delete this file!
+This folder is needed for the chromadb vector store to be created, stored and used.
